@@ -1,3 +1,3 @@
-Email Signature Generator
+#Email Signature Generator
 
-WIP not ready for consumption;
+#WIP not ready for consumption;
