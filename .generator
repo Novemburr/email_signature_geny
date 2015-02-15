@@ -43,7 +43,8 @@ else
 
 	while IFS=, read fname lname mi	phone logo web_link title address
 	do
-		gen_sing $fname $lname $mi $phone $logo $web_link $title $address;
+		gen_sing "$fname" "$lname" "$mi" "$phone" "$logo" "$web_link" "$title" "$address";
+
 	done < ./$1
 
 fi
